@@ -14,7 +14,8 @@
       {
         "title": "tauri-playground",
         "width": 800,
-        "height": 600
+        "height": 600,
+        "label": "main"
       }
     ],
     "security": {
@@ -31,5 +32,13 @@
       "icons/icon.icns",
       "icons/icon.ico"
     ]
+  },
+  "plugins": {
+    "core": {
+      "all": true
+    },
+    "opener": {
+      "all": true
+    }
   }
 }
